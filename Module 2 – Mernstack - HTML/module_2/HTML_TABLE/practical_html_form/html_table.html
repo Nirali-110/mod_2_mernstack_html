@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Catalog</title>
+</head>
+<body>
+  <h2>Product Catalog</h2>
+  
+  <table border="1" style="border-collapse: collapse; width: 80%; text-align: center;">
+    <!-- Table Header -->
+    <thead style="background-color: #f2f2f2;">
+      <tr>
+        <th>Product Name</th>
+        <th>Product Image</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+
+    <!-- Table Body -->
+    <tbody>
+      <tr>
+        <td>Smartphone X1</td>
+        <td><img src="./smartp.jpg" alt="Smartphone" width="100"></td>
+        <td>$699</td>
+        <td>High-performance smartphone with OLED display.</td>
+        <td>In Stock</td>
+      </tr>
+
+      <tr>
+        <td>Laptop Pro 15</td>
+        <td><img src="./laptop.jpg" alt="Laptop" width="100"></td>
+        <td>$1,299</td>
+        <td>Powerful laptop with long battery life.</td>
+        <td>Out of Stock</td>
+      </tr>
+
+      <!-- Using colspan to merge cells -->
+      <tr>
+        <td colspan="5" style="background-color: #ddd; font-weight: bold;">Special Offer: Free Shipping on Orders Over $500!</td>
+      </tr>
+
+      <tr>
+        <td>Wireless Headphones</td>
+        <td><img src="./headphone.jpg" alt="Headphones" width="100"></td>
+        <td>$199</td>
+        <td>Noise-cancelling headphones with rich sound quality.</td>
+        <td>In Stock</td>
+      </tr>
+
+      <!-- Using rowspan to merge Availability -->
+      <tr>
+        <td>Smartwatch Z2</td>
+        <td><img src="./smartwatch.jpg" alt="Smartwatch" width="100"></td>
+        <td>$249</td>
+        <td>Track your fitness and notifications.</td>
+        <td rowspan="2">In Stock</td>
+      </tr>
+      
+      <tr>
+        <td>Tablet A8</td>
+        <td><img src="./tablet.jpg" alt="Tablet" width="100"></td>
+        <td>$399</td>
+        <td>Lightweight tablet perfect for reading and browsing.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
